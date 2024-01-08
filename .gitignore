@@ -1,0 +1,52 @@
+# Compiled Python files
+__pycache__/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+*.pyo
+*.pyc
+*.pyz
+*.pyw
+__pycache__
+
+# Local configuration file (replace <project_name> with your project's name)
+<project_name>/settings/local.py
+
+# Virtual environment
+venv/
+env/
+
+# Logs
+*.log
+
+# Database files
+*.sqlite3
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled UI files
+*.ui~*
+
+# Cache files
+__pycache__/
+.cachetools/
+.cache/
+
+# .pyre check files
+.pyre/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
