@@ -82,7 +82,7 @@ class TaskUpdateView(generics.UpdateAPIView):
 class TaskDeleteView(generics.DestroyAPIView):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
-    print()
+
     def destroy(self, request, *args, **kwargs):
         try:
             response = super().destroy(request, *args, **kwargs)
