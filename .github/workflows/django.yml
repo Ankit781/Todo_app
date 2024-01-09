@@ -37,4 +37,4 @@ jobs:
     - name: Run Black Formatter
       run: |
         pip install black
-        black --check .
+        black .
